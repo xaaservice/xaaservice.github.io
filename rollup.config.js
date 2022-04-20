@@ -6,7 +6,7 @@ import {terser} from 'rollup-plugin-terser'
 const isProduction = process.env.NODE_ENV === 'production'
 
 export default {
-  input: 'src/main.js',
+  input: 'main.js',
   output: {
     file: 'dist/main.js',
     format: 'iife',
